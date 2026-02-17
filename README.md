@@ -1,4 +1,4 @@
-# 🚀 AttendAI Backend
+# AttendAI Backend
 
 Flask-based REST API backend for **AttendAI** — a smart classroom attendance monitoring system powered by Face Recognition, Raspberry Pi 5, and IoT integration.
 
@@ -12,7 +12,7 @@ This backend handles:
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 AttendAI is an AI + IoT-based classroom attendance system that automates student attendance using facial recognition.
 
@@ -53,24 +53,9 @@ Next.js Dashboard (Frontend)
 
 ---
 
-## 📂 Project Structure
+## API Endpoints
 
-attendance_system/
-│
-├── api.py # Flask REST API
-├── main.py # Face recognition CLI system
-├── main_headless.py # Headless recognition mode
-├── face_engine/ # Face encoding & detection logic
-├── attendance.db # SQLite database
-├── requirements.txt
-└── venv/
-
-
----
-
-## 🔌 API Endpoints
-
-### 📡 System Status
+### System Status
 GET /api/status
 
 
@@ -88,27 +73,27 @@ Returns:
 
 ---
 
-### 👨‍🎓 Students
+### 👨Students
 GET /api/students
 POST /api/students
 
 
 ---
 
-### 📊 Attendance Records
+### Attendance Records
 GET /api/attendance
 
 
 ---
 
-### 🎛️ Control Recognition
+### Control Recognition
 POST /api/start
 POST /api/stop
 
 
 ---
 
-## 🖥️ Setup & Installation
+## Setup & Installation
 
 ### 1️⃣ Clone Repository
 
